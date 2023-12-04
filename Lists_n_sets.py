@@ -16,3 +16,5 @@ print(list3)
 print(list4)
 list4.sort()
 print(list4) #list4 уже отредактирован безвозвратно
+
+# Множества (sets)
