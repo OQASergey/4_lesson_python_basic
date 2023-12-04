@@ -8,10 +8,12 @@ print("{}, {}".format(a, b.upper()))
 print("{first}, {second}{second}{second}".format(first = a, second = b))
 
 url = "https://example.com/{ep}"
-url_get = url.format(ep = "get")
-url_post = url.format(ep = "post")
+get = "GET"
+post = "POST"
 
-print(url_get + " " + url_post)
+print(url.format(ep = get) + " " + url.format(ep = post))
+
+print("https://example.com/{ep}".format(ep = "POST"))
 
 a1 = "1234"
 a2 = 1234
